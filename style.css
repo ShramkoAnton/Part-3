@@ -1,0 +1,121 @@
+.test {
+    position: relative;
+    width: 1260px;
+    height: 1423px;
+
+    background: #ffffff;
+
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto;
+}
+
+.line {
+    position: absolute;
+    width: 1260px;
+    height: 0;
+    left: 0;
+    top: 5px;
+    border-bottom: 1px solid #9B51E0;
+}
+
+.logo {
+
+    position: absolute;
+    width: 143px;
+    height: 29px;
+    left: 174px;
+    top: 42px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+
+
+    color: #000000;
+}
+
+.logo2 {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    left: 149px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border: 3px solid #FFC740;
+    box-sizing: border-box;
+}
+
+.input {
+    position: absolute;
+    width: 201px;
+    height: 33px;
+    left: 909px;
+    top: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #6D3D99;
+    box-sizing: border-box;
+}
+
+.go {
+    position: absolute;
+    width: 42px;
+    height: 31px;
+    left: 1067px;
+    top: 41px;
+
+    background: #9B51E0;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+.one {
+    position: relative;
+    width: 123px;
+    height: 47px;
+    left: 147px;
+    top: 94px;
+
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: #FFC740;
+}
+
+.two {
+    position: relative;
+    width: 123px;
+    height: 47px;
+    left: 147px;
+    top: 94px;
+    border: none;
+    background: #FFFFFF;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #050505;
+}

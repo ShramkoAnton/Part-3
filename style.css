@@ -1,4 +1,4 @@
-.test {
+.frame {
     position: relative;
     width: 1260px;
     height: 1423px;
@@ -7,6 +7,7 @@
 
     padding: 10px; /* Поля вокруг текста */
     margin: auto;
+    text-align: center;
 }
 
 .line {
@@ -18,10 +19,14 @@
     border-bottom: 1px solid #9B51E0;
 }
 
-.logo {
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
-    position: absolute;
-    width: 143px;
+.logo {
+    /*position: absolute;*/
+    display: inline-block;
     height: 29px;
     left: 174px;
     top: 42px;
@@ -30,15 +35,12 @@
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 28px;
-
-
-
+    line-height: 32px;
     color: #000000;
 }
 
-.logo2 {
-    position: absolute;
+.square {
+    /*position: absolute;*/
     width: 50px;
     height: 48px;
     left: 149px;
@@ -50,7 +52,7 @@
 }
 
 .input {
-    position: absolute;
+    /*position: absolute;*/
     width: 201px;
     height: 33px;
     left: 909px;
@@ -62,7 +64,7 @@
 }
 
 .go {
-    position: absolute;
+    /*position: absolute;*/
     width: 42px;
     height: 31px;
     left: 1067px;
@@ -74,36 +76,36 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    /* identical to box height */
+    border: none;
 
 
     color: #FFFFFF;
 }
 
 .btn {
+    display: flex;
+    justify-content: center;
     margin-top: 1rem;
 }
-.one {
-    position: relative;
+.home-btn {
+    /*position: relative;*/
     width: 123px;
     height: 47px;
     left: 147px;
     top: 94px;
 
-
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    /* identical to box height */
-
 
     color: #FFFFFF;
     background: #FFC740;
+    border: none;
 }
 
-.two {
-    position: relative;
+.other-btns {
+    /*position: relative;*/
     width: 123px;
     height: 47px;
     left: 147px;

@@ -121,3 +121,145 @@
 
     color: #050505;
 }
+
+.head-image {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.head-text {
+    /* Aliquam pharetra vulputate */
+
+    position: absolute;
+    width: 509px;
+    height: 150px;
+    left: 190px;
+    top: 117px;
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #FFC740;
+
+}
+
+.head-content {
+    position: absolute;
+    /*visibility: hidden;*/
+    width: 486px;
+    height: 145px;
+    left: 185px;
+    top: 319px;
+
+
+}
+
+.head-p {
+    position: absolute;
+    width: 450px;
+    height: 133px;
+    left: 0;
+    top: 40px;
+    text-align: left;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+
+.head-button {
+    /*position: absolute;*/
+    width: 125px;
+    height: 40px;
+    left: 214px;
+    top: 432px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    background: #6D3D99;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.up-posts {
+    display: flex;
+    margin-top: 1rem;
+
+}
+
+.down-posts {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: left;
+}
+
+.up-posts-head {
+    /*position: absolute;*/
+    width: 16px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+
+    background: #9B51E0;
+}
+
+.up-posts-head-yellow {
+    /*position: absolute;*/
+    width: 16px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+
+    background: #FFC740;
+}
+
+.up-posts-head2 {
+    /*position: absolute;*/
+    width: 180px;
+    height: 17px;
+    left: 179px;
+    top: 523px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.up-posts-head3 {
+    /*position: absolute;*/
+    width: 282px;
+    height: 16px;
+    left: 318px;
+    top: 523px;
+
+    background: #9B51E0;
+}
+
+.up-posts-head3-yellow {
+    /*position: absolute;*/
+    width: 282px;
+    height: 16px;
+    left: 318px;
+    top: 523px;
+
+    background: #FFC740;
+}

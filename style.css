@@ -263,3 +263,32 @@
 
     background: #FFC740;
 }
+
+.up-posts-bottom {
+    /*position: absolute;*/
+    width: 16px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+
+    background: #9B51E0;
+}
+
+.up-posts-bottom2 {
+    /*position: absolute;*/
+    width: 120px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+
+}
+
+.up-posts-bottom3 {
+    /*position: absolute;*/
+    width: 157px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+
+    background: #9B51E0;
+}

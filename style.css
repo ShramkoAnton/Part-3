@@ -1,7 +1,7 @@
 .frame {
     position: relative;
     width: 1260px;
-    height: 1423px;
+    height: 1367px;
 
     background: #ffffff;
 
@@ -12,11 +12,11 @@
 
 .line {
     position: absolute;
-    width: 1260px;
+    width: 1903px;
     height: 0;
-    left: 0;
-    top: 5px;
-    border-bottom: 1px solid #9B51E0;
+    left: -313px;
+    top: -8px;
+    border-bottom: 5px solid #9B51E0;
 }
 
 .header {
@@ -24,38 +24,40 @@
     justify-content: space-between;
 }
 
-.logo {
-    /*position: absolute;*/
-    display: inline-block;
-    height: 29px;
-    left: 174px;
-    top: 42px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 32px;
-    color: #000000;
-}
-
 .square {
-    /*position: absolute;*/
+    position: absolute;
     width: 50px;
     height: 48px;
-    left: 149px;
-    top: 30px;
+    left: 146px;
+    top: 12px;
 
-    background: #FFFFFF;
+    background: none;
     border: 3px solid #FFC740;
     box-sizing: border-box;
 }
 
+.logo {
+    position: absolute;
+    height: 23px;
+    left: 170px;
+    top: 14px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    background: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+}
+
 .input {
-    /*position: absolute;*/
+    position: absolute;
     width: 201px;
-    height: 33px;
-    left: 909px;
+    height: 34px;
+    left: 908px;
     top: 40px;
 
     background: #FFFFFF;
@@ -64,14 +66,14 @@
 }
 
 .go {
-    /*position: absolute;*/
+    position: absolute;
     width: 42px;
-    height: 31px;
-    left: 1067px;
+    height: 32px;
+    left: 1066px;
     top: 41px;
 
     background: #9B51E0;
-
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -85,7 +87,7 @@
 .btn {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 .home-btn {
     /*position: relative;*/
@@ -93,7 +95,7 @@
     height: 47px;
     left: 147px;
     top: 94px;
-
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -112,8 +114,7 @@
     top: 94px;
     border: none;
     background: #FFFFFF;
-
-    font-family: Roboto, serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -125,6 +126,9 @@
 .head-image {
     display: flex;
     margin-top: 1rem;
+
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
 }
 
 .head-text {
@@ -137,7 +141,7 @@
     top: 117px;
     text-align: left;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -163,29 +167,28 @@
     width: 450px;
     height: 133px;
     left: 0;
-    top: 40px;
+    top: 32px;
     text-align: left;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 17px;
 
     color: #FFFFFF;
 }
 
 
 .head-button {
-    /*position: absolute;*/
+    position: absolute;
     width: 125px;
-    height: 40px;
-    left: 214px;
-    top: 432px;
-
-    font-family: Roboto;
-    font-style: normal;
+    height: 34px;
+    left: 0;
+    top: 120px;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 14px;
     line-height: 16px;
     /* identical to box height */
@@ -214,7 +217,7 @@
     height: 16px;
     left: 159px;
     top: 523px;
-
+    font-family: 'Roboto', sans-serif;
     background: #9B51E0;
 }
 
@@ -224,7 +227,7 @@
     height: 16px;
     left: 159px;
     top: 523px;
-
+    font-family: 'Roboto', sans-serif;
     background: #FFC740;
 }
 
@@ -271,7 +274,7 @@
     left: 159px;
     top: 523px;
 
-    background: #9B51E0;
+    background: #FFC740;
 }
 
 .up-posts-bottom2 {
@@ -280,6 +283,8 @@
     height: 16px;
     left: 159px;
     top: 523px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -289,6 +294,44 @@
     height: 16px;
     left: 159px;
     top: 523px;
+    background: #FFC740;
+}
+
+.under-line {
+    width: 16px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
 
     background: #9B51E0;
+}
+
+.under-line2 {
+    width: 90px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.under-line3 {
+    width: 864px;
+    height: 16px;
+    left: 159px;
+    top: 523px;
+    background: #9B51E0;
+}
+
+.bottom-images {
+    margin: 1rem;
+}
+
+.footer {
+    background-color: #6D3D99;
+    color: #FFFFFF;
+    height: 115px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
